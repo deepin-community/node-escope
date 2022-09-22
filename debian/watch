@@ -1,0 +1,7 @@
+version=4
+opts=\
+repacksuffix=+ds,\
+repack,compression=xz,\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-escope-$1/ \
+ https://github.com/estools/escope/tags .*/archive/.*/v?([\d\.]+).tar.gz

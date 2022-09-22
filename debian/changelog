@@ -1,0 +1,55 @@
+node-escope (3.6.0+ds-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.1, no changes needed.
+
+  [ Yadd ]
+  * Update standards version to 4.6.0, no changes needed.
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+
+ -- Yadd <yadd@debian.org>  Fri, 05 Nov 2021 14:07:02 +0100
+
+node-escope (3.6.0+ds-3) unstable; urgency=medium
+
+  * Team Upload.
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Use secure URI in Homepage field.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Update standards version to 4.1.1, no changes needed.
+
+  [ Nilesh Patra ]
+  * Build with babel7
+  * Use pkg-js-tools auto-install
+  * Remove debian/tests/{control,require}
+  * Fix with cme
+  * Bump standards version to 4.5.0
+  * Add "Rules-Requires-Root:no"
+  * Switch compat version to 13
+
+ -- Nilesh Patra <npatra974@gmail.com>  Fri, 08 May 2020 00:03:41 +0530
+
+node-escope (3.6.0+ds-2) unstable; urgency=medium
+
+  * Move to main (babel is in main now)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 27 Sep 2017 14:52:42 +0530
+
+node-escope (3.6.0+ds-1) unstable; urgency=low
+
+  * Initial release (Closes: #875767)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 14 Sep 2017 17:45:13 +0530

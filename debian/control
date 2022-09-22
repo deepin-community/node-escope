@@ -1,0 +1,32 @@
+Source: node-escope
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Priority: optional
+Testsuite: autopkgtest-pkg-nodejs
+Build-Depends: debhelper-compat (= 13),
+               nodejs,
+               node-babel7,
+               node-es6-weak-map,
+               node-estraverse,
+               node-es6-map,
+               node-esrecurse,
+               dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-escope
+Vcs-Git: https://salsa.debian.org/js-team/node-escope.git
+Homepage: https://github.com/estools/escope
+Rules-Requires-Root: no
+
+Package: node-escope
+Architecture: all
+Depends: ${misc:Depends},
+         nodejs,
+         node-esrecurse,
+         node-es6-map,
+         node-estraverse,
+         node-es6-weak-map
+Description: ECMAScript scope analyzer
+ Escope is ECMAScript scope analyzer extracted from esmangle project.
+ .
+ Node.js is an event-based server-side JavaScript engine.
